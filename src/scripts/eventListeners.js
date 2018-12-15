@@ -7,10 +7,6 @@ const eventListeners = {
         // let foodExpInput = document.getElementById(".food_exp");
         // let foodTypeInput = document.getElementById(".food_type");
 
-        // foodNameInput.value = "";
-        // foodExpInput.value = "";
-        // foodTypeInput.value = "";
-
         // let foodName = foodNameInput.value;
         // let foodExp = foodExpInput.value;
         // let foodType = foodTypeInput.value;
