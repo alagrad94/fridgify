@@ -2,21 +2,17 @@ const eventListeners = {
 
     handleSaveButton () {
 
-        console.log("button clicked")
-        // let foodNameInput = document.querySelector(".food_name");
-        // let foodExpInput = document.getElementById(".food_exp");
-        // let foodTypeInput = document.getElementById(".food_type");
+        let foodName = document.getElementById("food_name").value;
+        let foodExp = document.getElementById("food_exp").value;
+        let foodType = document.getElementById("food_type").value;
 
-        // let foodName = foodNameInput.value;
-        // let foodExp = foodExpInput.value;
-        // let foodType = foodTypeInput.value;
-
-        // let foodObject = {
-        //     "name": `"${foodName}"`,
-        //     "expiration": `"${foodExp}"`,
-        //     "type": `"${foodType}"`
-        // }
-        // eventListeners.postFoodObject(foodObject);
+        let foodObject = {
+            "name": `"${foodName}"`,
+            "expiration": `"${foodExp}"`,
+            "type": `"${foodType}"`
+        }
+        console.log(foodObject)
+        eventListeners.postFoodObject(foodObject);
     },
     postFoodObject (foodObject){
 

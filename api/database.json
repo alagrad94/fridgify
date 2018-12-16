@@ -17,6 +17,12 @@
       "expiration": "01/01/2018",
       "type": "moldy",
       "id": 3
+    },
+    {
+      "name": "\"french fries\"",
+      "expiration": "\"12/1/2018\"",
+      "type": "\"stale\"",
+      "id": 4
     }
   ]
 }

@@ -1,17 +1,12 @@
-/*
-TODO
-- When event happens
-    1. Get user input
-    2. Create object
-    3. Post new food
-
-*/
 import eventListeners from "./eventListeners";
 
 const foodInputForm = {
 
     foodFormBuilder() {
         let foodForm = document.querySelector(".inputForm");
+        foodForm.addEventListener("click", function(event){
+            event.preventDefault()
+        });
 
         let foodField = document.createElement("fieldset");
         let foodInput = document.createElement("input");
