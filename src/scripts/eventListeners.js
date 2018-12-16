@@ -7,12 +7,13 @@ const eventListeners = {
         let foodType = document.getElementById("food_type").value;
 
         let foodObject = {
-            "name": `"${foodName}"`,
-            "expiration": `"${foodExp}"`,
-            "type": `"${foodType}"`
+            "name": `${foodName}`,
+            "expiration": `${foodExp}`,
+            "type": `${foodType}`
         }
         console.log(foodObject)
         eventListeners.postFoodObject(foodObject);
+        location.reload(true);
     },
     postFoodObject (foodObject){
 
